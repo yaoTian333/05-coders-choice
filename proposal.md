@@ -1,20 +1,11 @@
-Name: ____________           ID:   ____________
+Name: YAO TIAN          ID: 4752 0724
 
 ## Proposed Project
 
-> Replace this paragraph with the description of what your project
-> will do. Tell me what kind of interface it will have, and roughly
-> how it will work. I don't need more than three or four sentences,
-> unless you feel compelled to write more.
+Publish/Subscribe model is well used in the current service design. It decouples the service providers and consumers so that both sides would not require any knowldege of each other.
+
 
 ## Outline Structure
 
-> Describe how you'll organize your code. What is the process and
-> supervision structure? If it uses a framework, how does it fit in. I
-> just need to understand the direction you plan to take. Again, three
-> or four sentences are probably enough.
+This application implements a Publish/Subscribe messaging system with Genserver/Supervisor modules of Elixir. The message consumers subscribe to the events from a topic and the consumers will be notified whenever an event of that topic arrives.
 
-
-
-> replace all the ">" lines with your content, then push this to
-> github and issue a merge request.
